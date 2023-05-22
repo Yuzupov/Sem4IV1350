@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="784d9b2e-164c-4dfb-8e47-13acff63b6a5" name="Changes" comment="anotherupdate" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P6Ke0p990N21DTEKEP720454R6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/hellg/Desktop/iv1350-saleprocessing-solution-master/iv1350-saleprocessing-solution-master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="se.alrh.iv1350.seminar3.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hellg\Desktop\iv1350-saleprocessing-solution\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="se.alrh.iv1350.seminar3.model" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="se.alrh.iv1350.seminar3.controller" />
+      <recent name="se.alrh.iv1350.seminar3.model" />
+      <recent name="se.alrh.iv1350.seminar3.integration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.alrh.iv1350.seminar3.startup.Main" />
+      <module name="iv1350-saleprocessing-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.alrh.iv1350.seminar3.startup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.itemDTOFromItemID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iv1350-saleprocessing-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.alrh.iv1350.seminar3.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.alrh.iv1350.seminar3.controller" />
+      <option name="MAIN_CLASS_NAME" value="se.alrh.iv1350.seminar3.controller.ControllerTest" />
+      <option name="METHOD_NAME" value="itemDTOFromItemID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryHandlerTest.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iv1350-saleprocessing-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.alrh.iv1350.seminar3.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.alrh.iv1350.seminar3.integration" />
+      <option name="MAIN_CLASS_NAME" value="se.alrh.iv1350.seminar3.integration.InventoryHandlerTest" />
+      <option name="METHOD_NAME" value="fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryHandlerTest.ifExceptionIsThrownAssertionSucceeds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iv1350-saleprocessing-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.alrh.iv1350.seminar3.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.alrh.iv1350.seminar3.integration" />
+      <option name="MAIN_CLASS_NAME" value="se.alrh.iv1350.seminar3.integration.InventoryHandlerTest" />
+      <option name="METHOD_NAME" value="ifExceptionIsThrownAssertionSucceeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="se.alrh.iv1350.seminar3 in iv1350-saleprocessing-solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iv1350-saleprocessing-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.alrh.iv1350.seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.alrh.iv1350.seminar3" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InventoryHandlerTest.ifExceptionIsThrownAssertionSucceeds" />
+        <item itemvalue="JUnit.InventoryHandlerTest.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling" />
+        <item itemvalue="JUnit.se.alrh.iv1350.seminar3 in iv1350-saleprocessing-solution" />
+        <item itemvalue="JUnit.ControllerTest.itemDTOFromItemID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784d9b2e-164c-4dfb-8e47-13acff63b6a5" name="Changes" comment="" />
+      <created>1682772186235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682772186235</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updatecheck">
+      <created>1682862141765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682862141765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="firstUpdate">
+      <created>1682867972870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682867972870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="anotherupdate">
+      <created>1682972919611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682972919611</updated>
+    </task>
+    <task id="LOCAL-00004" summary="anotherupdate">
+      <created>1683060492612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683060492612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="anotherupdate">
+      <created>1683067610168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683067610168</updated>
+    </task>
+    <task id="LOCAL-00006" summary="anotherupdate">
+      <created>1683104231954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683104231954</updated>
+    </task>
+    <task id="LOCAL-00007" summary="anotherupdate">
+      <created>1683138827777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683138827777</updated>
+    </task>
+    <task id="LOCAL-00008" summary="anotherupdate">
+      <created>1683201267506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683201267506</updated>
+    </task>
+    <task id="LOCAL-00009" summary="anotherupdate">
+      <created>1683202726982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683202726982</updated>
+    </task>
+    <task id="LOCAL-00010" summary="anotherupdate">
+      <created>1683213923068</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213923068</updated>
+    </task>
+    <task id="LOCAL-00011" summary="anotherupdate">
+      <created>1683231504224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683231504224</updated>
+    </task>
+    <task id="LOCAL-00012" summary="anotherupdate">
+      <created>1683236957978</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683236957978</updated>
+    </task>
+    <task id="LOCAL-00013" summary="anotherupdate">
+      <created>1683239184650</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683239184650</updated>
+    </task>
+    <task id="LOCAL-00014" summary="anotherupdate">
+      <created>1684264574658</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684264574658</updated>
+    </task>
+    <task id="LOCAL-00015" summary="anotherupdate">
+      <created>1684367028676</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684367028676</updated>
+    </task>
+    <task id="LOCAL-00016" summary="anotherupdate">
+      <created>1684369825143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684369825143</updated>
+    </task>
+    <task id="LOCAL-00017" summary="anotherupdate">
+      <created>1684369956436</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684369956436</updated>
+    </task>
+    <task id="LOCAL-00018" summary="anotherupdate">
+      <created>1684370240809</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684370240809</updated>
+    </task>
+    <task id="LOCAL-00019" summary="anotherupdate">
+      <created>1684371880405</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684371880405</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updatecheck" />
+    <MESSAGE value="firstUpdate" />
+    <MESSAGE value="anotherupdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="anotherupdate" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.NullPointerException" memberName="detailMessage" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
