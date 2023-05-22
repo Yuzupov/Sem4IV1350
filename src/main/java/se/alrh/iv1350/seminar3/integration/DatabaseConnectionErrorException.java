@@ -8,10 +8,8 @@ import java.io.IOException;
 import java.lang.*;
 
 public final class DatabaseConnectionErrorException extends Exception{
-    LogHandler logHandler = new LogHandler();
-    public DatabaseConnectionErrorException() throws IOException {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Exception thrown");
-        logHandler.loggingClassLog(ErrorMessageHandler.errorMessageToDeveloper(), LogType.DATABASECONNECTIONERROR);
+    public DatabaseConnectionErrorException(String msg) throws IOException {
+        super(msg);
+
     }
 }

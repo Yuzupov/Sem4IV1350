@@ -22,7 +22,7 @@ class InventoryHandlerTest {
 
     @Test
     void ifExceptionIsThrownAssertionSucceeds(){
-        Exception exception = assertThrows(InvalidItemIDInDatabase.class, () -> {inventoryHandler.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling(45321);});
-        Assertions.assertEquals("Missing item in database for entered itemID", exception.getMessage());
+        assertThrows(InvalidItemIDInDatabase.class, () -> inventoryHandler.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling(123), "wrong or no exceptions was thrown");
+        assertThrows(DatabaseConnectionErrorException.class, ()-> inventoryHandler.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling(99999), "wrong or no exception was thrown");
     }
 }

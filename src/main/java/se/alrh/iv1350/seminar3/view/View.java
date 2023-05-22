@@ -39,7 +39,7 @@ public class View {
         scanItem(12345, 2);
         scanItem(54321, 3);
         scanItem(123);
-        scanItem(99999);
+        scanItem(99999, 3);
         scanItem(1357);
         Payment payment = new Payment(1000);
         System.out.println("---------------------------");

@@ -72,16 +72,14 @@ public class Controller {
      * @param itemID unique item identifier
      * @param count  the quantity of items to be added
      */
-    public void addItemMultipleWithException(int itemID, int count) throws DatabaseConnectionErrorException, InvalidItemIDInDatabase, DatabaseConnectionErrorRePackagerException, InvalidIDException, IOException {
+    public ItemDTO addItemMultipleWithException(int itemID, int count) throws DatabaseConnectionErrorRePackagerException, InvalidIDException, IOException {
         try {
             ItemDTO itemDTO = inventoryHandler.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling(itemID);
-            if (inventoryHandler.checkIfItemExistsInDatabase(itemID)) {
-                sale.addItems(itemDTO, count);
-            }
+            sale.addItems(itemDTO, count);
+            return itemDTO;
         } catch (InvalidItemIDInDatabase e) {
             throw new InvalidIDException(itemID, e);
         } catch (DatabaseConnectionErrorException e) {
-            logHandler.loggingClassLog(ErrorMessageHandler.errorMessageToDeveloper(), LogType.DATABASECONNECTIONERROR);
             throw new DatabaseConnectionErrorRePackagerException(e);
         } catch (IOException e){
             throw new IOException();
