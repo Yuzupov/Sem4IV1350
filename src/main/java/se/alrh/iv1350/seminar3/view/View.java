@@ -30,7 +30,7 @@ public class View {
      * runs a simulated version of multiple sales after each other
      * throws exceptions that are caught in the view
      * @throws InvalidItemIDInDatabase thrown if the itemID isn't found in the database
-     * @throws DatabaseConnectionErrorException thrown if connection to database can't be stablished
+     * @throws DatabaseConnectionErrorException thrown if connection to database can't be established
      */
     public void runFakeExecution() throws InvalidItemIDInDatabase, DatabaseConnectionErrorException {
         contr.startSale();
