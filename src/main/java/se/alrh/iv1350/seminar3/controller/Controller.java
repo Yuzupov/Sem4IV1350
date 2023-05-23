@@ -4,8 +4,6 @@ import se.alrh.iv1350.seminar3.model.SaleObserver;
 import se.alrh.iv1350.seminar3.integration.*;
 import se.alrh.iv1350.seminar3.logAPI.LogHandler;
 import se.alrh.iv1350.seminar3.model.*;
-import se.alrh.iv1350.seminar3.utility.LogType;
-import se.alrh.iv1350.seminar3.view.ErrorMessageHandler;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -100,7 +98,6 @@ public class Controller {
     /**
      * returns the amount of change of a payment procedure
      * @param payment the payment received
-     * @return the amount of change based off of the payment received
      */
     public void endSale(Payment payment){
         sale.addSaleObservers(saleObservers);

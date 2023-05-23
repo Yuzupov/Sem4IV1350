@@ -2,14 +2,12 @@ package se.alrh.iv1350.seminar3.view;
 
 import se.alrh.iv1350.seminar3.model.SaleInfoDTO;
 import se.alrh.iv1350.seminar3.model.SaleObserver;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 public class TotalRevenueFileOutput implements SaleObserver {
     private double totalRevenueFromSales;
-
     PrintWriter revenueToFile;
     public TotalRevenueFileOutput() throws IOException {
         try {
@@ -25,7 +23,5 @@ public class TotalRevenueFileOutput implements SaleObserver {
         double sumOfSale = saleInfoDTO.getTotalPrice()+ saleInfoDTO.getTotalVAT();
         this.totalRevenueFromSales += sumOfSale;
         this.revenueToFile.println("Total revenue from sales since start of program: "+this.totalRevenueFromSales);
-
-
     }
 }

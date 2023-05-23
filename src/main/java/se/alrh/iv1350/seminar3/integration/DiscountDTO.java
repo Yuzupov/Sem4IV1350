@@ -13,7 +13,7 @@ public class DiscountDTO {
     private final String customerName;
 
     /**
-     * creates a {@link discountDTO} if we had one but since discounts are not part of
+     * creates a {@link "discountDTO"} if we had one but since discounts are not part of
      * basic flow it is not implemented
      * @param customerID unique identifier for a customer
      * @param customerName name of said customer

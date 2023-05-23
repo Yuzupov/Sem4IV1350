@@ -2,10 +2,7 @@ package se.alrh.iv1350.seminar3.view;
 
 import se.alrh.iv1350.seminar3.model.SaleObserver;
 import se.alrh.iv1350.seminar3.model.*;
-import java.util.ArrayList;
-
 public class TotalRevenueView implements SaleObserver {
-
     double totalRevenueFromSales;
     @Override
     public void newSale(SaleInfoDTO saleInfoDTO) {

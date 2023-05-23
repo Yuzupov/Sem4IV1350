@@ -21,11 +21,3 @@ public final class FileLogger implements MessageLogger {
     }
 }
 
-  /*  public FileLogger(){
-        try {
-            logStream = new PrintWriter(new FileWriter("log.txt"),true);
-        } catch (IOException ioe){
-            System.out.println("Cannot log.");
-            ioe.printStackTrace();
-        }
-    }*/

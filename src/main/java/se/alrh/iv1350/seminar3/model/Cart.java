@@ -140,11 +140,9 @@ public class Cart implements Iterable<Item>{
         public void increaseCount(int increment){
             count += increment;
         }
-
         public int getCount(){
             return count;
         }
-
         public Item getItem(){
             return item;
         }

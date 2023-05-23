@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784d9b2e-164c-4dfb-8e47-13acff63b6a5" name="Changes" comment="anotherupdate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/InventoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/InventoryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/inheritance/ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/MessageLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/MessageLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Receipt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueFileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueFileOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/totalrevenue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/totalrevenue.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684793939693</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="anotherupdate">
+      <created>1684832002585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684832002585</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

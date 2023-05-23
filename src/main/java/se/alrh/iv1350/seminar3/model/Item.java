@@ -6,7 +6,6 @@ import se.alrh.iv1350.seminar3.integration.ItemDTO;
  * models an item sold in a store
  */
 public class Item {
-
     private final int itemID;
     private final String description;
     private final double price;

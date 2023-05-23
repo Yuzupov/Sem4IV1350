@@ -5,10 +5,7 @@ import se.alrh.iv1350.seminar3.controller.InvalidIDException;
 import se.alrh.iv1350.seminar3.controller.Controller;
 import se.alrh.iv1350.seminar3.integration.*;
 import se.alrh.iv1350.seminar3.model.*;
-
 import java.io.IOException;
-
-
 /**
  * the view, represents the user interface of the program
  */
@@ -30,8 +27,10 @@ public class View {
     }
 
     /**
-     * this method simulates the running of the program
-     * it goes through an example sale
+     * runs a simulated version of multiple sales after each other
+     * throws exceptions that are caught in the view
+     * @throws InvalidItemIDInDatabase thrown if the itemID isn't found in the database
+     * @throws DatabaseConnectionErrorException thrown if connection to database can't be stablished
      */
     public void runFakeExecution() throws InvalidItemIDInDatabase, DatabaseConnectionErrorException {
         contr.startSale();

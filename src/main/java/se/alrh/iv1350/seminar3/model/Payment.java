@@ -12,7 +12,6 @@ public class Payment{
     public Payment(double payment){
         this.payment = payment;
     }
-
     /**
      * gets the amount to be paid by the customer
      * @return specific payment

@@ -202,3 +202,5 @@ Exception thrown Unable to establish connection to inventory database
 2023-05-23 | 00:17:04.313 Error occurred  Unable to establish connection to inventory database
 2023-05-23 | 10:48:10.972 Error occurred  Unable to establish connection to inventory database
 2023-05-23 | 10:52:55.485 Error occurred  Unable to establish connection to inventory database
+2023-05-23 | 10:55:14.269 Error occurred  Unable to establish connection to inventory database
+2023-05-23 | 10:56:07.763 Error occurred  Unable to establish connection to inventory database

@@ -11,7 +11,6 @@ import java.util.HashMap;
 public class DiscountHandler {
 
     private Sale sale;
-    private ArrayList itemList;
     private DiscountDTO discountDTO;
     private HashMap<Integer, String> customerIDDB;
     private int customerID;
@@ -27,22 +26,12 @@ public class DiscountHandler {
 
     /**
      *
-     * @param discountDTO
+     * @param discountDTO takes in a discountDTO
      */
     private void placeHolderEntry(DiscountDTO discountDTO){
         customerIDDB.put(discountDTO.getCustomerID(), customerName);
     }
     public boolean checkDiscountValidity(int customerID) {
-        if (customerIDDB.containsKey(discountDTO.getCustomerID()));
-        return true;
+        return (customerIDDB.containsKey(discountDTO.getCustomerID()));
     }
-
-    /*public void applyDiscount(double totalPrice){
-        double discount = 0.2;
-        double tempPrice;
-        if(checkDiscountValidity(customerID)){
-            tempPrice = sale.returnTotalPriceOfList(itemList);
-            tempPrice = tempPrice * discount;
-        }
-    }*/
 }
