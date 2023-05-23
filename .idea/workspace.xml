@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="784d9b2e-164c-4dfb-8e47-13acff63b6a5" name="Changes" comment="anotherupdate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/se/alrh/iv1350/seminar3/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/se/alrh/iv1350/seminar3/controller/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/se/alrh/iv1350/seminar3/integration/InventoryHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/se/alrh/iv1350/seminar3/integration/InventoryHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/InventoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/InventoryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/totalrevenue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/totalrevenue.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +76,7 @@
       <recent name="se.alrh.iv1350.seminar3.integration" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.addItemMultipleWithException">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.alrh.iv1350.seminar3.startup.Main" />
       <module name="iv1350-saleprocessing-solution" />
@@ -161,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControllerTest.addItemMultipleWithException" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ControllerTest.addItemMultipleWithException" />
         <item itemvalue="JUnit.ControllerTest.addItemMultiple" />
         <item itemvalue="JUnit.InventoryHandlerTest.ifExceptionIsThrownAssertionSucceeds" />
         <item itemvalue="JUnit.InventoryHandlerTest.fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling" />
@@ -318,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684784963455</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="anotherupdate">
+      <created>1684793939693</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684793939693</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

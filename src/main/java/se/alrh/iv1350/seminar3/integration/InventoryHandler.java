@@ -1,10 +1,8 @@
 package se.alrh.iv1350.seminar3.integration;
 
-import javafx.event.EventDispatchChain;
 import se.alrh.iv1350.seminar3.logAPI.LogHandler;
 import se.alrh.iv1350.seminar3.utility.LogType;
 import se.alrh.iv1350.seminar3.view.ErrorMessageHandler;
-
 import java.io.IOException;
 import java.util.HashMap;
 /**
@@ -33,7 +31,6 @@ public class InventoryHandler {
      * this creates a temporary placeholder database that acts in the role of an actual database
      */
     private InventoryHandler() throws IOException {
-        StringBuilder sb = new StringBuilder();
         dataForItemsInStore = new HashMap<>();
         createEntryForItemWithData(new ItemDTO(12345, "this is itemOne", 40, 0.2 ));
         createEntryForItemWithData(new ItemDTO(54321, "this is itemTwo", 80, 0.1));
@@ -53,18 +50,14 @@ public class InventoryHandler {
     }
 
     /**
-     * checks if an item exists in the database
-     * @param itemID the unique item identifier
-     * @return returns true if it exists
-     */
-    public boolean checkIfItemExistsInDatabase(int itemID) {
-        return dataForItemsInStore.get(itemID) != null;
-    }
-
-    /**
-     * fetches the itemDTO from an itemID
-     *
-     * @param itemID unique item identifier
+     * fetches an itemDTO from a database using an itemID and throws an exception
+     * if they're not found in the database
+     * or if they can't connect to the database
+     * @param itemID the itemID that is given to the method
+     * @return ItemDTO that is returned
+     * @throws InvalidItemIDInDatabase thrown if the itemID doesn't exist in the database
+     * @throws DatabaseConnectionErrorException thrown if it can't connect to database
+     * @throws IOException thrown if it can't create or write to the file
      */
     public ItemDTO fetchItemDTOFromDatabaseAndReturnItemDataWithExceptionHandling(int itemID) throws InvalidItemIDInDatabase, DatabaseConnectionErrorException, IOException {
         if (itemID == 99999) {
@@ -77,18 +70,6 @@ public class InventoryHandler {
         }
         throw new InvalidItemIDInDatabase(itemID);
     }
-    public ItemDTO fetchItemDTOFromDatabaseAndReturnItemData (int itemID){
-
-        ItemDTO itemData;
-        if (checkIfItemExistsInDatabase(itemID)){
-            itemData = dataForItemsInStore.get(itemID);
-        }
-        else {
-            return null;
-        }
-        return itemData;
-    }
-
     /**
      * gets the price from a specific itemDTO
      * @param itemDTO specific itemDTO

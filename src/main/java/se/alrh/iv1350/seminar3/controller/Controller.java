@@ -22,7 +22,6 @@ public class Controller {
     private final InventoryHandler inventoryHandler;
     private final AccountingHandler accountingHandler;
     private final DiscountHandler discountHandler;
-    private LogHandler logHandler;
     private Sale sale;
     private ArrayList<SaleObserver> saleObservers = new ArrayList<>();
 
@@ -67,10 +66,14 @@ public class Controller {
     }
 
     /**
-     * adds a specified amount of an item to the {@link Sale}
-     *
-     * @param itemID unique item identifier
-     * @param count  the quantity of items to be added
+     * adds item to Cart located in Sale based off of an itemID and the amount of the item
+     * and returns an itemDTO
+     * @param itemID the itemID entered
+     * @param count the amount of an item
+     * @return itemDTO that is returned
+     * @throws DatabaseConnectionErrorRePackagerException repackaged database exception that propagates up to view
+     * @throws InvalidIDException repackaged exception that propagates up to view
+     * @throws IOException thrown if method can't write to the file
      */
     public ItemDTO addItemMultipleWithException(int itemID, int count) throws DatabaseConnectionErrorRePackagerException, InvalidIDException, IOException {
         try {
