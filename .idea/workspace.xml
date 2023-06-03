@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784d9b2e-164c-4dfb-8e47-13acff63b6a5" name="Changes" comment="anotherupdate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/controller/DatabaseConnectionErrorRePackagerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/inheritance/ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DatabaseConnectionErrorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/integration/DiscountHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/MessageLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/logAPI/MessageLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/model/Receipt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueFileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueFileOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/TotalRevenueView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/alrh/iv1350/seminar3/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/totalrevenue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/totalrevenue.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -339,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684832002585</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="anotherupdate">
+      <created>1684832553072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684832553072</updated>
+    </task>
+    <task id="LOCAL-00024" summary="anotherupdate">
+      <created>1684832586466</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684832586466</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
